@@ -27,9 +27,33 @@ body {
   background-color: rgb(2, 3, 129);
   color:rgba(255, 255, 255, 1);
 }
-/* .social-icon{
+.social-icons{
+ /* background-color: purple;
+ color: white;
+ padding: 18px;
+ border-radius: 50%; */
+ display: flex;
+ gap: 1rem;
+}
+.fa-facebook-f {
+  background-color: #3B5998;
+  color: white;
+ padding: 1rem;
+ border-radius: 50%;
+}
+.fa-twitter, .fa-instagram {
+  background-color: #1DA1F2;
+  color: white;
+ padding: 1rem;
+ border-radius: 50%;
+}
+.fa-youtube {
+  background-color: #FF0000;
+  color: white;
+ padding: 1rem;
+ border-radius: 50%;
+}
  
-} */
 
 /* =====================nav styling==================== */
 .nav-bar {
