@@ -211,7 +211,7 @@ nav a:hover {
   height: 80%;
   float: right;
   background-color: rgba(0, 0, 0, 0.5); 
-  background-image: url(/images/hero\ img.jpeg);
+  background-image: url(../images/hero\ img.jpeg);
   background-size: cover;
       background-position: center;
 
