@@ -566,8 +566,9 @@ color: red;
   background-color: #111213;
   color: white;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   padding-top: 4rem;
+  padding-inline: 5rem;
 }
 .my-footer p {
   font-size: 14px;
