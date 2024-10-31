@@ -386,7 +386,6 @@ nav a:hover {
 }
 
 .vision-container {
-  
   background-color: #cf2e2e;
 }
 
@@ -486,7 +485,7 @@ color: red;
 
 .top-mgt-imgs-background {
   background-color: #ffffff;
-  padding-bottom: 6rem;
+  padding-bottom: 9rem;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
 }
 
@@ -552,6 +551,53 @@ color: red;
   font-weight: 400;
   margin-bottom: 1rem;
 }
+
+/* ===========waiting styling==================== */
+#waitingSection {
+  width: 100%;
+  height: auto;
+  margin-block: 6rem;
+ display: flex;
+ justify-content: center;
+  gap: 2rem;
+  padding-inline: 3rem;
+}
+#waitingSection h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #595D8F;
+}
+span {
+  color: red;
+ 
+}
+#waitingSection p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  padding-bottom: 1rem;
+  color: #777777;
+}
+#waitingSection img {
+  width: 640px;
+}
+#checkBoxSection {
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  
+}
+#checkBoxSection p {
+  font-size: 14px;
+}
+.flex-checkbox {
+  display: flex;
+  align-items: center;
+ gap: 1rem;
+}
+
 /* ===================gallery styling==================== */ 
 .gallery h1 {
   font-size: 45px;

@@ -76,30 +76,28 @@
   <main>
     <section>
       <div class="hero-container">
-        <video 
-          class="video-background"
-          autoplay
-          loop
-          muted
-          playsinline
-        >
-          <source src="/videos/hero video.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-        
+        <iframe
+        class="video-background"
+        src="https://www.youtube.com/embed/sY6SOg1pA9M?autoplay=1&loop=1&mute=1&playlist=sY6SOg1pA9M&playsinline=1"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        frameborder="0"
+      >
+      </iframe>
+    
         <div class="hero-content">
           <div class="hero-text">
-          <h1>THE ULTIMATE MATHEMATICS AMBASSADOR 2025</h1>
-          <p><a href="#">LEARN MORE...</a></p>
+            <h1>THE ULTIMATE MATHEMATICS AMBASSADOR 2025</h1>
+            <p><a href="#">LEARN MORE...</a></p>
+         </div>
         </div>
-        </div>
-      </div>
+   </div>
     </section>
 
     <!-- proprietor speech -->
     <section class="about-section">
       <div class="video-container">
-          <video src="./videos/proprietor speech.mp4" controls preload="metadata"></video>
+          <video src="videos/proprietor-speech.mp4" controls preload="metadata"></video>
       </div>
       <div class="text-container">
           <h3>Welcome To The Ambassadors Schools, Ota</h3>
@@ -204,6 +202,50 @@
 
    </section>
 
+   <!-- ==============waiting section============== -->
+    <section id="waitingSection">
+      <div class="waiting-text">
+        <h2>Why Study At The Ambassadors Schools?</h2>
+        <p><span>Discover What Makes Us Different...</span></p>
+        <p>At The Ambassadors College, Ota, we specialise in nurturing each student for success. Regardless of a learner's abilities, talents, and interests, our teaching approaches are geared towards stimulating the minds of all students</p>
+        <p>Our personalised learning approach is tailored to augment what is being taught in classes. That way, we get to know each scholar's weaknesses, strengths, and struggles and the appropriate approach to get them back on track.</p>
+        <div id="checkBoxSection">
+          <div>
+            <div class="flex-checkbox">
+            <div><input type="checkbox" name="" id="checkBox" checked></div>
+            <div><p><span>10 Times </span>British Council’s Outstanding Cambridge Learner Awards</p></div>
+           </div>
+            <div class="flex-checkbox">
+            <input type="checkbox" name="" id="checkBox" checked>
+            <p>Ranked Among The <span>Top 5 </span>Schools In Nigeria</p>
+           </div>
+            <div class="flex-checkbox">
+            <input type="checkbox" name="" id="checkBox" checked>
+            <p><span>2 Times  International School Awards Winner</p>
+           </div>
+          </div>
+          <div>
+            <div class="flex-checkbox">
+              <input type="checkbox" name="" id="checkBox" checked>
+              <p><span>5 Times </span>Cowbellpedia Champion</p>
+             </div>
+              <div class="flex-checkbox">
+              <input type="checkbox" name="" id="checkBox" checked>
+              <p>Trusted By <span>1000+ </span>Parents</p>
+             </div>
+              <div class="flex-checkbox">
+              <input type="checkbox" name="" id="checkBox" checked>
+              <p>Excellent University Placement In Over <span>20 Institutions</span> Worldwide</p>
+             </div>
+          </div>
+        </div>
+        <a href="#" class="know-more-btn">Know More</a>
+      </div>
+      <div class="waiting-image">
+        <img src="images/waiting for you img.jpeg" alt="">
+      </div>
+    </section>
+
   <!-- ===============gallery =============== -->
    <section class="gallery">
     <h1>OUR GALLERY</h1>
@@ -237,7 +279,6 @@
       </div>
     </div>
    </section>
-
   </main>
   <footer>
     <div class="my-footer">
